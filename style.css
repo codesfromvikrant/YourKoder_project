@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  --bg-blue: #5D5DFF;
+  --bg-black: #050505;
+  --bg-white: white;
+}
+
+body {
+  background-color: var(--bg-blue);
+  font-family: "Inter", sans-serif;
+  color: var(--bg-white);
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.client {
+  background-color: var(--bg-white);
+  width: 38rem;
+  padding: 9rem 3rem 5rem 3rem;
+  position: relative;
+
+}
+
+.what-they-says {
+  color: var(--bg-black);
+  font-weight: 500;
+  line-height: 2rem;
+}
+
+.client-profile {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0;
+  position: absolute;
+  top: -3rem;
+  left: -3rem;
+}
+
+.client-detail {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5rem;
+  background-color: var(--bg-black);
+  padding: 1.5rem;
+}
+
+.client-detail p,
+span {
+  font-size: 1rem;
+  font-weight: 300;
+  margin-top: 0.5rem;
+}
+
+.quotation_mark {
+  position: absolute;
+  bottom: -3rem;
+}
+
+.testimonials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  padding-top: 27rem;
+}
+
+.client-1 {
+  transform: translateY(-70%);
+}
+
+.client-3 {
+  transform: translateY(70%);
+}
+
+.rectangle1 {
+  position: absolute;
+  right: 0;
+  top: -2rem;
+}
+
+.rectangle2 {
+  position: absolute;
+  left: 0;
+  bottom: -23rem;
+}
